@@ -1,0 +1,226 @@
+-- Inserting user profiles into the User table
+INSERT INTO User (Name, Email, Login, Password, Address)
+VALUES ('Izabelle', 'i.g.v.auriaux@students.uu.nl', '1', '1', 'Budapestlaan 4a, 3584 CD Utrecht');
+
+INSERT INTO User (Name, Email, Login, Password, Address)
+VALUES ('Sergey', 's.a.sosnovsky@uu.nl', '2', '2', 'Budapestlaan 4b, 3584 CD Utrecht');
+
+INSERT INTO User (Name, Email, Login, Password, Address)
+VALUES ('Daire', 'd.e.gielty@students.uu.nl', '3', '3', 'Budapestlaan 4c, 3584 CD Utrecht');
+
+INSERT INTO User (Name, Email, Login, Password, Address)
+VALUES ('Joaquin', 'j.vandijk10@students.uu.nl', '4', '4', 'Budapestlaan 4d, 3584 CD Utrecht');
+
+INSERT INTO User (Name, Email, Login, Password, Address)
+VALUES ('Pim', 'P.Majoor@students.uu.nl', '5', '5', 'Budapestlaan 4e, 3584 CD Utrecht');
+
+
+
+
+-- Inserting books into the Book table
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Assassin''s Blade', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Prequel novellas to the Throne of Glass series.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Throne of Glass', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Follows the story of Celaena Sardothien, an assassin seeking her freedom.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Crown of Midnight', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Celaena becomes the Kings Champion, but dark forces threaten her kingdom.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Heir of Fire', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Celaena discovers her true heritage and battles powerful enemies.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Queen of Shadows', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Aelin returns to seek vengeance and confront her destiny.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Empire of Storms', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Aelin fights to save her kingdom from ancient evil forces.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Tower of Dawn', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Chaol Westfalls journey to heal and find redemption.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Kingdom of Ash', 'Sarah J. Maas', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'YA-Fantasy', 'Epic conclusion to the Throne of Glass series.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Caraval', 'Stephanie Garber', ABS(RANDOM()) % 4 + 1, 'Flatiron Books', 'YA-Fantasy', 'Scarlett participates in a magical game of Caraval to save her sister.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Legendary', 'Stephanie Garber', ABS(RANDOM()) % 4 + 1, 'Flatiron Books', 'YA-Fantasy', 'Tella enters the dangerous world of Caraval to uncover a sinister mystery.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Finale', 'Stephanie Garber', ABS(RANDOM()) % 4 + 1, 'Flatiron Books', 'YA-Fantasy', 'Scarlett and Tella face their final challenge in Caraval to determine their fate.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Shadow and Bone', 'Leigh Bardugo', ABS(RANDOM()) % 4 + 1, 'Henry Holt and Co.', 'YA-Fantasy', 'Alina Starkov discovers her hidden powers and faces the Darkling.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Siege and Storm', 'Leigh Bardugo', ABS(RANDOM()) % 4 + 1, 'Henry Holt and Co.', 'YA-Fantasy', 'Alina faces new challenges as she battles dark forces threatening her kingdom.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Ruin and Rising', 'Leigh Bardugo', ABS(RANDOM()) % 4 + 1, 'Henry Holt and Co.', 'YA-Fantasy', 'Alina seeks to unite the Grisha and save Ravka from destruction.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Six of Crows', 'Leigh Bardugo', ABS(RANDOM()) % 4 + 1, 'Henry Holt and Co.', 'YA-Fantasy', 'A band of outcasts undertakes a daring heist to pull off an impossible job.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Crooked Kingdom', 'Leigh Bardugo', ABS(RANDOM()) % 4 + 1, 'Henry Holt and Co.', 'YA-Fantasy', 'Kaz and his crew face betrayal and danger as they fight for revenge and redemption.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('King of Scars', 'Leigh Bardugo', ABS(RANDOM()) % 4 + 1, 'Imprint', 'YA-Fantasy', 'Nikolai grapples with dark magic and political intrigue while facing a new threat to Ravka.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Rule of Wolves', 'Leigh Bardugo', ABS(RANDOM()) % 4 + 1, 'Imprint', 'YA-Fantasy', 'Nikolai and Zoya must confront the secrets of the past to secure the future of their kingdom.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Poppy War', 'R.F. Kuang', ABS(RANDOM()) % 4 + 1, 'Harper Voyager', 'High Fantasy', 'Rin unlocks deadly shamanic powers to fight a brutal war against the Federation of Mugen.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Dragon Republic', 'R.F. Kuang', ABS(RANDOM()) % 4 + 1, 'Harper Voyager', 'High Fantasy', 'Rin allies with the Dragon Warlord to overthrow the Empress and shape the future of Nikan.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Burning God', 'R.F. Kuang', ABS(RANDOM()) % 4 + 1, 'Harper Voyager', 'High Fantasy', 'Rin faces the consequences of her actions as she fights for survival and revenge in a war-torn world.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Cruel Prince', 'Holly Black', ABS(RANDOM()) % 4 + 1, 'Little, Brown and Company', 'YA-Fantasy', 'Jude Duarte navigates the treacherous world of the Faerie Court to seize power.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Wicked King', 'Holly Black', ABS(RANDOM()) % 4 + 1, 'Little, Brown and Company', 'YA-Fantasy', 'Jude grapples with political intrigue and forbidden love as she fights to maintain control.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Queen of Nothing', 'Holly Black', ABS(RANDOM()) % 4 + 1, 'Little, Brown and Company', 'YA-Fantasy', 'Jude must return to Elfhame and confront her past to save those she loves.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Manacled', 'SenLinYu', ABS(RANDOM()) % 4 + 1, NULL, 'Romantasy', 'In an alternate story ending to the Harry Potter Saga, where voldemort defeats Harry Potter, we follow Hermione Granger trying to escape from the grasps of the High Reeve.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Kiss Quotient', 'Helen Hoang', ABS(RANDOM()) % 4 + 1, 'Berkley Books', 'Romance', 'Stella Lane hires an escort to help her gain confidence in dating and discovers unexpected love.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Bride Test', 'Helen Hoang', ROUND(RANDOM() *3) + 1, 'Berkley Books', 'Romance', 'Khai Diep avoids relationships until his mother sets him up with a potential wife from Vietnam.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Heart Principle', 'Helen Hoang', ABS(RANDOM()) % 4 + 1, 'Berkley Books', 'Romance', 'Anna Sun reevaluates her life and love after a health scare, finding unexpected connections along the way.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Duke and I', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Daphne Bridgerton enters a fake courtship with the Duke of Hastings, but their feelings become real.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Viscount Who Loved Me', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Anthony Bridgerton falls for the strong-willed Kate Sheffield, but secrets threaten their relationship.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('An Offer From a Gentleman', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Sophie Beckett finds love with the enigmatic Benedict Bridgerton at a masquerade ball.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Romancing Mister Bridgerton', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Colin Bridgerton falls for his best friends sister, Penelope Featherington, while she harbors a secret.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('To Sir Phillip, With Love', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Eloise Bridgerton enters into a marriage of convenience with the brooding Sir Phillip Crane, leading to unexpected romance.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('When He Was Wicked', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Francesca Bridgerton finds forbidden love with her deceased husbands cousin, Michael Stirling.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('It''s in His Kiss', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Hyacinth Bridgerton helps Gareth St. Clair decipher a family secret while finding unexpected love.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('On the Way to the Wedding', 'Julia Quinn', ABS(RANDOM()) % 4 + 1, 'Avon Books', 'Historical Romance', 'Gregory Bridgerton falls for Hermione Watson, but misunderstandings threaten their happily ever after.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Mistborn: The Final Empire', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Vin, a street urchin with Mistborn powers, joins a rebellion to overthrow the tyrannical Lord Ruler.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Mistborn: The Well of Ascension', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Vin and her companions search for the Well of Ascension to prevent the world from falling into chaos.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Mistborn: The Hero of Ages', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Vin and Elend uncover the truth about the Deepness and the fate of the world in the final battle against Ruin.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Way of Kings', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Kaladin, Shallan, and Dalinar navigate political intrigue and magical warfare in the world of Roshar.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Words of Radiance', 'Brandon Sanderson',ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Kaladin, Shallan, and Dalinar continue their quest for the truth and face new challenges in the war against the Voidbringers.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Edgedancer', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Lift discovers her destiny as a Radiant and helps those in need amidst the chaos of the Everstorm.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Oathbringer', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Dalinar unites the nations of Roshar against Odium while Kaladin and Shallan confront their own inner demons.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Dawnshard', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Dragonsteel Entertainment', 'High Fantasy', 'Rysn embarks on a dangerous mission to the mysterious island of Aimia to uncover ancient secrets.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Rhythm of War', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'The war between Honor and Odium escalates as Kaladin, Shallan, and Dalinar face their greatest challenges yet.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Eye of the World', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor and his friends embark on a journey to save the world from the Dark One.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Great Hunt', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand faces new enemies and challenges as he seeks the Horn of Valere and battles the Dark Ones minions.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Dragon Reborn', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand embraces his destiny as the Dragon Reborn and faces the threat of the Forsaken.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Shadow Rising', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand, Perrin, and Mat confront their pasts while dealing with the threat of the Forsaken and the Aiel.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Fires of Heaven', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand faces betrayal and treachery as he battles the Forsaken and the forces of the Dark One.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Lord of Chaos', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand struggles to unite the nations of the world against the Dark One while dealing with political turmoil and internal strife.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('A Crown of Swords', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand consolidates his power while facing new challenges and enemies in his quest to defeat the Dark One.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Path of Daggers', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor faces new challenges as the Last Battle approaches, while his allies prepare for the final confrontation.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Winters Heart', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor and his allies race to secure the future of the world while facing internal and external threats.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Crossroads of Twilight', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor struggles to maintain control of the nations as the Last Battle looms ever closer.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Knife of Dreams', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor and his allies prepare for the Last Battle while dealing with betrayal and treachery from within.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Gathering Storm', 'Robert Jordan', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor and his allies prepare for the Last Battle as the world teeters on the brink of destruction.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Towers of Midnight', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor and his allies make their final preparations for the Last Battle, while the forces of darkness gather for their final assault.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('A Memory of Light', 'Brandon Sanderson', ABS(RANDOM()) % 4 + 1, 'Tor Books', 'High Fantasy', 'Rand al Thor leads the forces of light in the Last Battle against the Shadow, determining the fate of the world.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Fellowship of the Ring', 'J.R.R. Tolkien', ABS(RANDOM()) % 4 + 1, 'Allen & Unwin', 'High Fantasy', 'Frodo Baggins embarks on a perilous journey to destroy the One Ring and save Middle-earth from Sauron.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Two Towers', 'J.R.R. Tolkien', ABS(RANDOM()) % 4 + 1, 'Allen & Unwin', 'High Fantasy', 'Frodo and his companions continue their quest while the forces of Sauron grow stronger.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Return of the King', 'J.R.R. Tolkien', ABS(RANDOM()) % 4 + 1, 'Allen & Unwin', 'High Fantasy', 'The final battle for Middle-earth and the fate of the One Ring.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Red Rising', 'Pierce Brown', ABS(RANDOM()) % 4 + 1, 'Del Rey Books', 'Science Fiction', 'Darrow seeks revenge against a dystopian society that oppresses his people.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Golden Son', 'Pierce Brown', ABS(RANDOM()) % 4 + 1, 'Del Rey Books', 'Science Fiction', 'Darrow rises through the ranks of Gold society while leading a rebellion against the corrupt rulers of the Society.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Morning Star', 'Pierce Brown', ABS(RANDOM()) % 4 + 1, 'Del Rey Books', 'Science Fiction', 'Darrow leads the Rising in a final battle against the Sovereign, determined to bring down the corrupt Gold society.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Iron Gold', 'Pierce Brown', ABS(RANDOM()) % 4 + 1, 'Del Rey Books', 'Science Fiction', 'A decade after the Rising, new conflicts arise as old enemies resurface and alliances are tested.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Dark Age', 'Pierce Brown', ABS(RANDOM()) % 4 + 1, 'Del Rey Books', 'Science Fiction', 'The Solar Republic faces internal strife and external threats as the war between Golds and Reds intensifies.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('The Song of Achilles', 'Madeline Miller', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'Historical Fiction', 'The story of Achilles and Patroclus, from their youth to the events of the Trojan War.');
+
+INSERT INTO Book (Title, Author, Copies, Publisher, Genre, Description)
+VALUES ('Circe', 'Madeline Miller', ABS(RANDOM()) % 4 + 1, 'Bloomsbury Publishing', 'Historical Fiction', 'Retelling of the life of Circe, the enchantress from Greek mythology.');

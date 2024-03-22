@@ -1,0 +1,33 @@
+-- Book table
+CREATE TABLE Book (
+    ISBN INTEGER PRIMARY KEY,
+    Title TEXT,
+    Author TEXT,
+    Copies INT,
+    Publisher TEXT,
+    Genre TEXT,
+    Cover BLOB
+);
+
+-- User table
+CREATE TABLE User (
+    UserID INTEGER PRIMARY KEY,
+    Name TEXT,
+    Email TEXT,
+    Login TEXT,
+    Password TEXT,
+    Address TEXT,
+    CurrentBook INTEGER, -- Foreign key referencing ISBN from Book table
+    FOREIGN KEY (CurrentBook) REFERENCES Book(ISBN)
+);
+
+-- Reservations table (many-to-many relationship between User and Book)
+CREATE TABLE Reservations (
+    ReservationID INTEGER PRIMARY KEY, -- Unique ID for each reservation
+    UserID INTEGER,
+    BookID INTEGER,
+    StartDate TEXT,
+    EndDate TEXT,
+    FOREIGN KEY (UserID) REFERENCES User(UserID),
+    FOREIGN KEY (BookID) REFERENCES Book(ISBN)
+);
