@@ -1,0 +1,66 @@
+<!-- 
+    - Should contain a catalog of all available books (up to 10 at once atleast 50 in total)
+        - If you want to see more books (use pagination) go to the next page button
+        - Or use progressive loading (load 10 more)
+        - Additional books should be retrieved using AJAX from the database
+    - Every book should display a picture of the cover, the title, the author
+    - Catalogue should be retrieved from the database not hardcoded
+    - Clicking on the book should open its description
+    - Desciption should be generated dynamically, and the info should be retrieved from the database also
+    - Should have a search bar to search for books
+
+    - If user is not logged in, should be able to see the catalogue and search for books bot not reserve
+    - If user is logged in, should be able to reserve books
+        - Select a book, using AJAX check if there's enough copies available, if yes display reserve button, if not display a message
+        - Click reserve on said certain book
+        - If the user does not yet hold one of those books; You have to confirm the reservation
+        - Once you have confirmed the reservation, the book will be added to the Registered User's history, and one less copy will be available
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>        
+    <header>
+        <!-- Title and navbar -->
+        <h1>Library</h1>
+    </header>
+    <nav>
+        <div class ="navbar" id="navbar">
+            <ul>            
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="../Views/register.html" >Sign In</a></li>
+                <li><a href="../Views/profile.html" >Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="book-catalog">
+            <!-- Repeat this section for each book -->
+            <div class="book">
+                <img src="book-cover-placeholder.jpg" alt="Book Cover">
+                <h3>Book Title</h3>
+                <p>Author Name</p>
+            </div>
+            <!-- End of book section -->
+        </div>
+
+        <div class="pagination">
+            <a href="#">&laquo; Previous</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Next &raquo;</a>
+        </div>
+    </main>
+    <footer>
+        WebTech 2024, group 49 
+    </footer>
+    <script src="indexScript.js"></script>
+</body>
+</html>
