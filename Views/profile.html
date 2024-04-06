@@ -1,0 +1,57 @@
+<!-- 
+    - RU have a profile where they can see their name,  email, login, password, address, the book they currently hold & reservation history
+    - RU should be able to release the book they currently hold, the number of available copies should increase by one
+    - RU should be able to change their password, username, email, and address
+ -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>Profile</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../Public/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ </head>
+ <body>        
+     <header>
+         <!-- Title and navbar -->
+         <h1>Profile</h1>
+     </header>
+     <nav>
+         <div class ="navbar" id="navbar">
+             <ul>            
+                 <li><a href="../Public/index.html" >Home</a></li>
+                 <li><a href="register.html" >Sign In</a></li>
+                 <li><a href="Profile.html" >Profile</a></li>
+             </ul>
+         </div>
+     </nav>
+     <h2>User Profile</h2>
+     <p class="userInfo">Name: <span id="userName"></span></p>
+     <p class="userInfo">Email: <span id="userEmail"></span></p>
+     <p class="userInfo">Login: <span id="userLogin"></span></p>
+     <p class="userInfo">Password: <span id="userPassword"></span></p>
+     <p class="userInfo">Address: <span id="userAddress"></span></p>
+     <p class="userInfo">Current Book: <span id="currentBook"></span></p>
+     <p class="userInfo">Reservation History: <span id="reservationHistory"></span></p>
+     <button id="releaseBookButton" class="userInfo">Release Book</button>
+     <button id="editProfileButton" class="userInfo">Edit Profile</button>
+
+
+     <form id="editProfileForm" class= "editInfo" style="display: none;" action="/updateProfile" method="post">
+         <label for="editUsername" class="editInfo">Username:</label><br>
+         <input type="text" id="editUsername" name="editUsername" class="editInfo"><br>
+         <label for="editEmail" class="editInfo">Email:</label><br>
+         <input type="email" id="editEmail" name="editEmail" class="editInfo"><br>
+         <label for="editPassword" class="editInfo">Password:</label><br>
+         <input type="password" id="editPassword" name="editPassword" class="editInfo"><br>
+         <label for="editAddress" class="editInfo">Address:</label><br>
+         <input type="text" id="editAddress" name="editAddress" class="editInfo"><br>
+         <input type="submit" value="Update Profile" class="editInfo">
+     </form>
+     <footer>
+         WebTech 2024, group 49 
+     </footer>
+     <script src="profileScript.js"></script>
+ </body>
+ </html>
