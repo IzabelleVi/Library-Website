@@ -1,0 +1,95 @@
+h1{
+    font-family: Beth Ellen;
+    color: #496550;
+    font-weight: 300;
+    text-align: center;
+  }
+  h2{
+    font-family: Playfair Display;
+    color: #6b9475;
+    text-align: center;
+    font-size: xx-large;
+  }
+  body{
+    background-color: #eaf0ec;
+    max-width: 1600px;
+    font-family: DM Sans;
+    font-size: large;
+    margin: auto;
+  }
+  
+  p{
+    color: #23101F;
+      text-align: left;
+  }
+  
+  .book-catalog {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.book img {
+    width: 100%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+  /*
+  nav bar
+  */
+  
+  .navbar ul {
+    list-style: none;
+    background: #6b9475;
+    padding: 0;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar a{
+    text-decoration: none;
+    font-family: DM Sans;
+    color: white;
+    width:100px;
+    display: block;
+    padding: 50xp 50xp;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .navbar a:hover{
+  background:#e1eae3;
+  }
+  
+  /*
+  Knoppen
+  */
+  .button{
+    height: 30px;
+    font-family: DM Sans;
+    color:#eae4d9;
+    border: none;
+    border-radius: 8px;
+    background: #967e64;
+    box-shadow:  5px 5px 10px #7d6953,
+    -5px -5px 10px #b09375;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover{
+    background: linear-gradient(145deg, #87715a, #a1876b);
+    box-shadow:  9px 9px 18px #7d6953,
+                 -9px -9px 18px #b09375;
+  }
+ 
