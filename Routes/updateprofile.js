@@ -16,7 +16,7 @@ router.post('/update-profile', (req, res) => {
       if (err) {
         return res.status(500).json({ error: err.message });
       }
-  
+
       res.json({ message: 'Profile updated successfully' });
-});
+    });
 });

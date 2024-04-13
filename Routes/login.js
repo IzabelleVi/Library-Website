@@ -17,10 +17,7 @@ db.get('SELECT UserID FROM User WHERE Login = ? AND Password = ?', [username, pa
 
     // Set session to keep user logged in
     req.session.userId = user.id;
-    res.json({ message: 'Login successful', user });
-    
-    // Account exists, redirect to profile page
-    window.location.href = 'profile.html';
-});
+    res.json({ message: 'Login successful', user });    
+  });
 });
 

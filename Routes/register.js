@@ -15,7 +15,5 @@ router.post('/register', (req, res) => {
   
       res.json({ message: 'User registered successfully', userId: this.lastID });
 
-    // Account registered, redirect to login page
-    window.location.href = 'register.html';
     });
 });
